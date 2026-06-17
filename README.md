@@ -77,7 +77,7 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 
 <br clear="right"/>
 
-## Demos
+## Demo
 
 <table>
   <tr>
