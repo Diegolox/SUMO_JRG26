@@ -1,2 +1,26 @@
 # SUMO_JRG26
-En este repositorio voy a contar un poco cómo funciona el algoritmo de sumo que use con mi equipo de robótica (Carlos Rios, Diego López, Martín Rincón y Sergio Toro) durante el ASTI ROBOTICS CHALLENGE X
+
+En este repositorio voy a explicar cómo funcionaba el algoritmo de sumo que utilizamos con mi equipo de robótica, formado por Carlos Ríos, Diego López, Martín Rincón y Sergio Toro, durante el **ASTI Robotics Challenge X**.
+
+Este repositorio puede entenderse como un anexo del proyecto original, pensado para explicar con más detalle el funcionamiento del robot durante esta prueba.
+
+
+## Introducción
+
+El objetivo de esta prueba era detectar tres robots que se movían a gran velocidad dentro de una pista circular de un metro de diámetro y sacarlos del ring lo más rápido posible, evitando que nuestro propio robot se saliera.
+
+
+## Hardware
+
+Nuestro robot utiliza como cerebro un microcontrolador **ESP32**. Esto supone una limitación en algunos aspectos, pero también tiene ventajas importantes, especialmente por su sencillez, bajo coste y facilidad de integración.
+
+Uno de los principales requisitos del proyecto fue diseñar un algoritmo lo más simple y robusto posible, capaz de ejecutarse periódicamente, reaccionar con rapidez y adaptarse a diferentes situaciones dentro del ring.
+
+Para detectar a los robots contrincantes se utilizó un sensor láser de tiempo de vuelo **VL53L1X**. Para el movimiento de nuestro robot se emplearon motores DC con encoder, adquiridos en AliExpress.
+
+
+## Software
+
+Antes de entrar en detalle en el algoritmo de sumo, decidimos que la mejor estrategia era desarrollar nuestras propias librerías: una para realizar un buen control de velocidad de los motores y otra para manejar el sensor láser mediante unas pocas funciones sencillas.
+
+De esta forma, el código principal del robot podía centrarse en la máquina de estados y en alguna funcionalidad adicional que comentaremos más adelante.
