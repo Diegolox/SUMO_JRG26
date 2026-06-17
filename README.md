@@ -81,8 +81,8 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 
 <table>
   <tr>
-    <td width="400" valign="top">
-      <video src="https://github.com/user-attachments/assets/4e9c40e5-cd9a-4b54-91f8-5ed8ce5cfec5" controls width="390"></video>
+    <td width="600" valign="top">
+      <video src="https://github.com/user-attachments/assets/4e9c40e5-cd9a-4b54-91f8-5ed8ce5cfec5" controls width="590"></video>
     </td>
     <td valign="top">
       <p align="justify">
