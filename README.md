@@ -1,4 +1,4 @@
-# SUMO_JRG26
+# SUMO JRG26
 
 <p align="justify">
 En este repositorio explico cómo funcionaba el algoritmo de sumo que utilizamos con mi equipo de robótica, formado por Carlos Ríos, Diego López, Martín Rincón y Sergio Toro, durante el <strong>ASTI Robotics Challenge X</strong>.
@@ -75,14 +75,16 @@ Para resolver este problema añadimos un estado intermedio muy simple entre la d
 Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante las pruebas, conseguimos que los robots enemigos fueran golpeados con el centro de nuestro robot. Esto evitaba que nuestro robot se pasara de largo o que impactara de lado, aumentando bastante la eficacia del ataque.
 </p>
 
+<br clear="right"/>
+
 ## Demos
+
 <p align="justify">
-Está muy bien la teoría sobre cómo funciona el algoritmo, pero ya es momento de empezar a ver cómo funciona nuestro robot.
-Se notará que en vez de haber robots hay bolos, esto es debido a que la prueba de tira bolos era muy similar y se usaron los mismos bolos.
+La teoría ayuda a entender la lógica del algoritmo, pero lo más interesante es verlo funcionando en pruebas reales. En el siguiente vídeo se muestra el comportamiento del robot ejecutando la estrategia de búsqueda, apuntado y ataque.
 </p>
 
+<p align="justify">
+Aunque en el vídeo se utilizan bolos en lugar de robots contrincantes, la dinámica de la prueba era muy parecida. De hecho, la prueba de tirar bolos compartía parte de la lógica con la prueba de sumo, por lo que nos sirvió para ajustar el comportamiento del robot y validar que el ataque se realizaba de forma centrada.
+</p>
 
-
-
-
-<br clear="right"/>
+<video src="./assets/ROBOT_BOLOS.mp4" controls width="100%"></video>
