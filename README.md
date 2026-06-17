@@ -88,4 +88,4 @@ Aunque en la demo aparecen bolos en lugar de robots contrincantes, la dinámica 
 </p>
 
 ### Demo: búsqueda, apuntado y ataque
-https://github.com/Diegolox/SUMO_JRG26/blob/main/assets/ROBOT_BOLOS.mp4
+[ROBOT_BOLOS](https://github.com/user-attachments/assets/4e9c40e5-cd9a-4b54-91f8-5ed8ce5cfec5)
