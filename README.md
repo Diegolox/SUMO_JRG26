@@ -30,7 +30,7 @@ Para detectar a los robots contrincantes se utilizó un sensor láser de tiempo 
 
 ## Software
 
-<img src="./assets/ROBOT.png" align="right" width="270" alt="Esquema del algoritmo de sumo">
+<img src="./assets/ALGORITMO.png" align="right" width="270" alt="Esquema del algoritmo de sumo">
 
 <p align="justify">
 Antes de entrar en detalle en el algoritmo de sumo, decidimos que la mejor estrategia era desarrollar nuestras propias librerías: una para realizar el control de velocidad de los motores y otra para manejar el sensor láser mediante unas pocas funciones sencillas.
