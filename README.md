@@ -81,7 +81,7 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 
 <table>
   <tr>
-    <td width="270" valign="top">
+    <td width="320" valign="top">
       <video src="https://github.com/user-attachments/assets/4e9c40e5-cd9a-4b54-91f8-5ed8ce5cfec5" controls width="250"></video>
     </td>
     <td valign="top">
@@ -89,7 +89,7 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
         La teoría ayuda a entender la lógica del algoritmo, pero lo más interesante es verlo funcionando en pruebas reales. En este vídeo se muestra el comportamiento del robot ejecutando la estrategia de búsqueda, apuntado y ataque.
       </p>
       <p align="justify">
-        Aunque en la demo aparecen bolos en lugar de robots contrincantes, la dinámica de la prueba era muy parecida. De hecho, la prueba de tirar bolos compartía parte de la lógica con la prueba de sumo, por lo que nos sirvió para ajustar el comportamiento del robot y comprobar si el ataque se realizaba de forma centrada.
+        Aunque en la demo aparecen bolos en lugar de robots contrincantes, la dinámica de la prueba era muy parecida. De hecho, la prueba de tirar bolos compartía parte de la lógica con la prueba de sumo, por lo que nos sirvió para ajustar el comportamiento del robot y comprobar si el ataque se realizaba de forma centrada. En este caso mostrado, se le ha bajado la velocidad para asegurarnos de que la máquina de estados funciona y el robot está funcionando correctamente y según lo programado.
       </p>
     </td>
   </tr>
