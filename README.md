@@ -20,6 +20,7 @@ Para detectar a los robots contrincantes se utilizó un sensor láser de tiempo 
 
 
 ## Software
+<img src="./assets/ROBOT.png" align="right" width="270" alt="Esquema del algoritmo de sumo">
 
 Antes de entrar en detalle en el algoritmo de sumo, decidimos que la mejor estrategia era desarrollar nuestras propias librerías: una para realizar el control de velocidad de los motores y otra para manejar el sensor láser mediante unas pocas funciones sencillas.
 
@@ -27,7 +28,6 @@ De esta forma, el código principal del robot podía centrarse en la máquina de
 
 Otra de las decisiones tomadas desde el inicio fue implementar un sistema sencillo de ejecución periódica de tareas. Para ello se utilizó la librería `Ticker.h`, que nos permitió organizar ciertas funciones de forma similar a un RTOS simplificado.
 
-<img src="./assets/ROBOT.png" align="right" width="270" alt="Esquema del algoritmo de sumo">
 
 El algoritmo de sumo es sencillo y se divide en las siguientes fases:
 
