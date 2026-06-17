@@ -75,4 +75,14 @@ Para resolver este problema añadimos un estado intermedio muy simple entre la d
 Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante las pruebas, conseguimos que los robots enemigos fueran golpeados con el centro de nuestro robot. Esto evitaba que nuestro robot se pasara de largo o que impactara de lado, aumentando bastante la eficacia del ataque.
 </p>
 
+## Demos
+<p align="justify">
+Está muy bien la teoría sobre cómo funciona el algoritmo, pero ya es momento de empezar a ver cómo funciona nuestro robot.
+Se notará que en vez de haber robots hay bolos, esto es debido a que la prueba de tira bolos era muy similar y se usaron los mismos bolos.
+</p>
+
+
+
+
+
 <br clear="right"/>
