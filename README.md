@@ -1,11 +1,11 @@
 # SUMO_JRG26
 
 <p align="justify">
-En este repositorio voy a explicar cómo funcionaba el algoritmo de sumo que utilizamos con mi equipo de robótica, formado por Carlos Ríos, Diego López, Martín Rincón y Sergio Toro, durante el <strong>ASTI Robotics Challenge X</strong>.
+En este repositorio explico cómo funcionaba el algoritmo de sumo que utilizamos con mi equipo de robótica, formado por Carlos Ríos, Diego López, Martín Rincón y Sergio Toro, durante el <strong>ASTI Robotics Challenge X</strong>.
 </p>
 
 <p align="justify">
-Este repositorio puede entenderse como un anexo del proyecto original, pensado para explicar con más detalle el funcionamiento del robot durante esta prueba.
+Este repositorio puede entenderse como un anexo del proyecto original, pensado para documentar con más detalle el funcionamiento del robot durante esta prueba.
 </p>
 
 ## Introducción
@@ -56,6 +56,23 @@ El algoritmo de sumo es sencillo y se divide en las siguientes fases:
 
 <p align="justify">
 En la imagen se muestra un ejemplo simplificado del comportamiento del robot durante la prueba de sumo.
+</p>
+
+<p align="justify">
+Sobre el papel, no parecía necesario implementar un algoritmo de apuntado como el que se muestra en la imagen de la derecha. La idea inicial era sencilla: en cuanto el robot detectaba al enemigo, atacaba directamente. Sin embargo, en las pruebas vimos que este comportamiento no era suficiente. Si pasábamos directamente del estado de búsqueda al estado de ataque, nuestro robot tendía a pasar de largo, golpear de lado o no impactar correctamente contra el rival.
+</p>
+
+<p align="justify">
+Para resolver este problema añadimos un estado intermedio muy simple entre la detección del enemigo y el ataque. La lógica utilizada fue la siguiente:
+</p>
+
+1. **Buscamos robot** → gira a la izquierda.
+2. **Robot encontrado** → sigue girando a la izquierda.
+3. **Robot perdido** → gira a la derecha despacio.
+4. **Robot encontrado de nuevo** → ataca.
+
+<p align="justify">
+Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante las pruebas, conseguimos que los robots enemigos fueran golpeados con el centro de nuestro robot. Esto evitaba que nuestro robot se pasara de largo o que impactara de lado, aumentando bastante la eficacia del ataque.
 </p>
 
 <br clear="right"/>
