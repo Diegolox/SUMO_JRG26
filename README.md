@@ -86,6 +86,4 @@ La teoría ayuda a entender la lógica del algoritmo, pero lo más interesante e
 <p align="justify">
 Aunque en la demo aparecen bolos en lugar de robots contrincantes, la dinámica de la prueba era muy parecida. De hecho, la prueba de tirar bolos compartía parte de la lógica con la prueba de sumo, por lo que nos sirvió para ajustar el comportamiento del robot y comprobar si el ataque se realizaba de forma centrada.
 </p>
-
-### Demo: búsqueda, apuntado y ataque
 [ROBOT_BOLOS](https://github.com/user-attachments/assets/4e9c40e5-cd9a-4b54-91f8-5ed8ce5cfec5)
