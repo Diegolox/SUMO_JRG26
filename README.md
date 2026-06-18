@@ -29,7 +29,7 @@ Para detectar a los robots contrincantes se utilizó un sensor láser <strong>VL
 </p>
 
 <p align="justify">
-Con solo eso, bnuestro robot ya está listo para combatir.
+Con solo eso, nuestro robot ya está listo para combatir.
 </p>
 
 ## Software
