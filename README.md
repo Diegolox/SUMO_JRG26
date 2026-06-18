@@ -25,7 +25,7 @@ Uno de los principales requisitos del proyecto fue diseñar un algoritmo lo más
 </p>
 
 <p align="justify">
-Para detectar a los robots contrincantes se utilizó un sensor láser de tiempo de vuelo <strong>VL53L1X</strong>. Para el movimiento de nuestro robot se emplearon motores DC con encoder, adquiridos en AliExpress.
+Para detectar a los robots contrincantes se utilizó un sensor láser <strong>VL53L1X</strong>. Para el movimiento de nuestro robot se emplearon motores DC con encoder, adquiridos en AliExpress.
 </p>
 
 ## Software
