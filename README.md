@@ -37,7 +37,7 @@ Con solo eso, nuestro robot ya está listo para combatir.
 <img src="./assets/ALGORITMO.png" align="right" width="270" alt="Esquema del algoritmo de sumo">
 
 <p align="justify">
-Antes de entrar en detalle en el algoritmo de sumo, decidimos que la mejor estrategia era desarrollar nuestras propias librerías: una para realizar el control de velocidad de los motores y otra para manejar el sensor láser mediante unas pocas funciones sencillas.
+Antes de entrar en detalle en el algoritmo de sumo, decidimos que la mejor estrategia era desarrollar nuestras propias librerías: una para realizar el control de velocidad de los motores y otra para utilizar el sensor láser mediante unas pocas funciones simples. Cómo puede ser leer_valor() o robot_detectado(uint16_t umbral).
 </p>
 
 <p align="justify">
