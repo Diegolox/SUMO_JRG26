@@ -28,6 +28,10 @@ Uno de los principales requisitos del proyecto fue diseñar un algoritmo lo más
 Para detectar a los robots contrincantes se utilizó un sensor láser <strong>VL53L1X</strong>. Para el movimiento de nuestro robot se emplearon motores DC con encoder, adquiridos en AliExpress.
 </p>
 
+<p align="justify">
+Con solo eso, bnuestro robot ya está listo para combatir.
+</p>
+
 ## Software
 
 <img src="./assets/ALGORITMO.png" align="right" width="270" alt="Esquema del algoritmo de sumo">
