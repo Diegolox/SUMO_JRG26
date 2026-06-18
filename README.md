@@ -104,16 +104,18 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 
 <table>
   <tr>
-    <td width="400" valign="top" align="center"
+    <td width="400" valign="top" align="center">
       <video src="https://github.com/user-attachments/assets/45b78d5b-5e57-411d-b929-cc5a1bfe512d" controls width="390"></video>
     </td>
     <td valign="top">
       <p align="justify">
-        Fue una de las cosas que vimos que nos hacía falta y era imprescindible para ganar la competición. No podíamos pegarnos 20 minutos antes de la final colocando el robot en la lona, cambiando variables y recompilando continuamente el código hasta que funcione. Decidimos que lo mejor era hacer un servidor wifi alojado en el propio microcontrolador del robot. Este servidor nos permitía cambiar los tiempos, las velocidades y algunas transiciones de nuestra máquina de estados. Esto fue fundamental, ya que nos permitía en cuestión de tres minutos dejar al JRG listo para el combate y ser más precisos con la calibración.
+        Fue una de las cosas que vimos que nos hacía falta y era imprescindible para ganar la competición. No podíamos pegarnos 20 minutos antes de la final colocando el robot en la lona, cambiando variables y recompilando continuamente el código hasta que funcionase. Decidimos que lo mejor era hacer un servidor WiFi alojado en el propio microcontrolador del robot. Este servidor nos permitía cambiar los tiempos, las velocidades y algunas transiciones de nuestra máquina de estados. Esto fue fundamental, ya que nos permitía en cuestión de tres minutos dejar al JRG listo para el combate y ser más precisos con la calibración.
       </p>
     </td>
   </tr>
 </table>
+
+
 
 
 
