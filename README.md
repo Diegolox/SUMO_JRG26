@@ -45,7 +45,7 @@ De esta forma, el código principal del robot podía centrarse en la máquina de
 </p>
 
 <p align="justify">
-Otra de las decisiones tomadas desde el inicio fue implementar un sistema sencillo de ejecución periódica de tareas. Para ello se utilizó la librería <code>Ticker.h</code>, que nos permitió organizar ciertas funciones de forma similar a un RTOS simplificado.
+Otra de las decisiones tomadas desde el inicio fue implementar un sistema de ejecución periódica de tareas. Para ello se utilizó la librería <code>Ticker.h</code>, que nos permitió organizar el código cómo si usáramos un RTOS, pero simplificado.
 </p>
 
 <p align="justify">
