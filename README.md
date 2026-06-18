@@ -105,7 +105,7 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 <table>
   <tr>
     <td width="400" valign="top">
-      <video src="https://github.com/Diegolox/SUMO_JRG26/issues/2#issue-4691969760" controls width="390"></video>
+      <video src="https://github.com/user-attachments/assets/45b78d5b-5e57-411d-b929-cc5a1bfe512d" controls width="390"></video>
     </td>
     <td valign="top">
       <p align="justify">
