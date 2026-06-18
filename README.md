@@ -104,7 +104,7 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 
 <table>
   <tr>
-    <td width="400" valign="top">
+    <td width="400" valign="top" align="center"
       <video src="https://github.com/user-attachments/assets/45b78d5b-5e57-411d-b929-cc5a1bfe512d" controls width="390"></video>
     </td>
     <td valign="top">
