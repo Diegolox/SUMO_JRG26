@@ -121,7 +121,7 @@ Con este algoritmo tan simple, que fuimos calibrando de forma práctica durante 
 
 ---
 
-## 🇬🇧 Project Description (English)
+## 🇬🇧 Project Description
 
 <p align="justify">
 In this repository, I explain how the sumo algorithm worked for the robot we developed with my robotics team, formed by Carlos Ríos, Diego López, Martín Rincón and Sergio Toro, during the <strong>ASTI Robotics Challenge X</strong>.
