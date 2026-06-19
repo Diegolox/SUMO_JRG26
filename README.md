@@ -1,6 +1,6 @@
 # SUMO JRG26
 
-## Español
+## 🇪🇸 Descripción del proyecto
 
 <p align="justify">
 En este repositorio explico cómo funcionaba el algoritmo de sumo que utilizamos con mi equipo de robótica, formado por Carlos Ríos, Diego López, Martín Rincón y Sergio Toro, durante el <strong>ASTI Robotics Challenge X</strong>.
